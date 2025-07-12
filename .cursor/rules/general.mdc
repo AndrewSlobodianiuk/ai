@@ -8,3 +8,4 @@ alwaysApply: true
   then PR title should be "DEV-123 Some cool branch"
 - always add to PR prefix fix, example - "fix: {PR_title}"
 - always use "git add ." command
+- when creating pr assume that you on a correct branch, do not create a new branch
