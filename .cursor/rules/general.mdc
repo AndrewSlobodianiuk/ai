@@ -9,3 +9,4 @@ alwaysApply: true
 - always add to PR prefix fix, example - "fix: {PR_title}"
 - always use "git add ." command
 - when creating pr assume that you on a correct branch, do not create a new branch
+- When the command is "PR" it means that you have to create PR with the changes. You already on the correct branch and changes was made.
