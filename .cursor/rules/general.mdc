@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+
+- when creating a PR use following pattern take a branch name and convert it to PR title
+  example:
+  if branch name is "dev_123_some_cool_branch"
+  then PR title should be "DEV-123 Some cool branch"
+- always add to PR prefix fix, example - "fix: {PR_title}"
+- always use "git add ." command
